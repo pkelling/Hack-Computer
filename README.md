@@ -17,6 +17,5 @@ They are written in an assembly language defined in the book, then compiled with
 * In CPU there are 2 registers (A & D).
 * Outside CPU is RAM for storage and ROM for instructions
 * CPU takes 16 Bit instructions
-
-For more information, check out the book. 
+* More information on the instruction set can be found in Chapter 4 of the book.
   
