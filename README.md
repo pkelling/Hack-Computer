@@ -19,3 +19,7 @@ They are written in an assembly language defined in the book, then compiled with
 * CPU takes 16 Bit instructions
 * More information on the instruction set can be found in Chapter 4 of the book.
   
+
+### Single Core Computer Running in Logisim:
+![Hack CPU in Logisim](hack-cpu.png?raw=true "CPU Core")
+![Hack Computer in Logisim](hack-multiply.gif?raw=true "Multiplication Program")
