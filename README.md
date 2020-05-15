@@ -20,6 +20,8 @@ They are written in an assembly language defined in the book, then compiled with
 * More information on the instruction set can be found in Chapter 4 of the book.
   
 
-### Single Core Computer Running in Logisim:
+### Hack CPU Core
 ![Hack CPU in Logisim](hack-cpu.png?raw=true "CPU Core")
+
+### Single Core Computer Running Multiplication Program in Logisim:
 ![Hack Computer in Logisim](hack-multiply.gif?raw=true "Multiplication Program")
