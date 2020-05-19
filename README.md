@@ -10,7 +10,7 @@ The goal is to create a working hack-based cpu with multiprocessing that can run
 Download the .circ files in Logisim folder and open them in logisim. You can replace the multiplication program with anything you want, just load it into the ROM.
 
 ### Simulated Examples on Eda Playground
-* https://www.edaplayground.com/x/2fWX
+* Hack Single Core Computer: https://www.edaplayground.com/x/2fWX
 
 ### For writing new programs:
 They are written in an assembly language defined in the book, then compiled with the assembler tool which can be downloaded at the nand2tetris website. Load the program into ROM using the logisim HEX editor either by tying in the commands, or you can convert the binary numbers in the file to Logisim's hex format (right click the ROM component).
@@ -22,7 +22,7 @@ They are written in an assembly language defined in the book, then compiled with
 * CPU takes 16 Bit instructions.
     + A load instruction loads a 15 bit number into A register
         - 0### #### #### ####   (spaces added for clarity)
-    + A instruction has the following format
+    + A compute instruction has the following format
         - 111a cccc ccdd djjj
         - 'a' specifies the second ALU input (Either register A or ram[A])
         - 'c' is the op code for the ALU
